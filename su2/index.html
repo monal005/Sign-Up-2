@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  
+    <title>Task 4</title>
+  </head>
+  <body>
+
+<!--                navbar  Start                     -->
+<nav class="navbar navbar-expand-lg  "data-bs-theme="dark" style="background-color: rgba(76, 27, 212, 0.827);">
+  <div class="container-fluid text-light">
+    <a class="navbar-brand text-light" href="#">MONAL'S</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">About Us</a>
+        </li>
+      
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</div>
+
+<!--                                    Body Start                     -->
+<div class="d-flex justify-content-evenly">
+
+
+    <div class="  m-5  text-light d-flex " >
+      <div id="img1">
+        <img src="./undraw_develop_app_re_bi4i.svg " class="d-flex flex-wrap gap-5" width="60%">
+      </div>
+      
+      <div class=" text-light"  >
+        <div class="px-4 py-2 mt-5" style="background-color: rgba(101, 51, 238, 0.87);" id="form1">
+
+          <!--                          Form Start                     -->
+          
+          <form>
+            <div class="stage stage-1 active">
+              <div class="card-title text-center text-light  display-6">
+                SignUp
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="text" class="form-control" id="email" placeholder="Email Here" name="email" />
+                <p id="emailErrorDisplay" class="text-warning"></p>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" name="password" />
+                <p id="passwordErrorDisplay" class="text-warning"></p>
+              </div>
+              <button class="btn btn-warning next-btn mb-3" type="button">
+                Next
+              </button>
+            </div>
+
+            <div class="stage stage-2">
+              <div class="card-title text-center display-6" >
+                SignUp
+              </div>
+              <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input
+                  type="text"
+                  class="form-control" id="firstName" placeholder="First Name " name="first-name" />
+                <p id="firstNameErrorDisplay" class="text-warning"></p>
+              </div>
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name:" name="last-name" />
+                <p id="lastNameErrorDisplay" class="text-warning"></p>
+              </div>
+              
+            <button class="btn btn-warning prev-btn" type="button">
+              Previous
+            </button>
+            <button
+              class="btn btn-warning next-btn"type="button" id="btn2" style="float: right;">
+              Submit
+            </button>
+            </div>
+            <div class="stage stage-3">
+              <div class="card-title text-center display-6">
+                  FORM  SUBMITTED SUCCESSFULLY  
+              </div>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+    >
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
